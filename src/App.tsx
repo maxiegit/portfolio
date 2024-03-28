@@ -1,23 +1,31 @@
 import "./App.css";
 import linkedin from "./assets/linkedin.png";
-import github from "./assets/github.png";
+import github from "./assets/github-mark.png";
 
 function App() {
   return (
     <div className="flex items-center justify-center h-screen mx-auto pl-24">
       <div className="grid grid-cols-2 grid-rows-2 gap-5 max-w h-128 mx-auto">
         <div className="text-left font-mono bg-green row-span-2 p-6 mx-auto rounded-xl shadow-2xl shadow-brown">
-          <h1 className="text-4xl pb-4">&#60;Max /&#62;</h1>
+          <h1 className="text-4xl">&#60;Max /&#62;</h1>
+          <h2 className="text-xl pb-2">Fullstack Web Developer</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
-            iaculis id risus nec fermentum. Pellentesque placerat at enim
-            suscipit porta. Donec nec ante quis ante bibendum tincidunt. In
-            sapien lectus, dignissim eget varius a, auctor ut lacus. Nunc
-            faucibus arcu nec massa tempor, eu imperdiet orci molestie. Nulla
-            semper pulvinar elit ac lacinia. Vivamus mattis hendrerit congue.
-            Aenean scelerisque volutpat enim in euismod. In rhoncus tristique
-            fringilla. Sed vitae augue consectetur, sodales dolor ultrices,
-            cursus nisi.
+            Hey! I'm Max. I'm an Irish developer based in belfast with a passion
+            for creating elegent and functional web applications. I began my
+            career in 2021 after graduating from the University of Ulster with a
+            degree in Computing Science and becoming a developer for Kainos.
+          </p>
+          <br />
+          <p>
+            I am proficient in the MERN stack having experience with
+            technologies such as Angular, React, Python, Java, and TypeScript.
+            My full skillset including examples of my work can be found below.
+          </p>
+          <br />
+          <p>
+            I am currently seeking new opportunities to further my career in web
+            development. If you are interested and wish to reach out, please
+            reach out to me on linkedin.
           </p>
         </div>
         <div className="p-2 bg-green shadow-2xl w-80 h-80 relative overflow-hidden rounded-full">
@@ -27,7 +35,7 @@ function App() {
           ></img>
         </div>
         <div className="bg-green w-80 h-42 p-6 max-w-sm rounded-xl shadow-2xl shadow-brown ">
-          <div className="flex items-center justify-between">
+          <div className="pt-16 flex items-center justify-around">
             <a href="https://www.linkedin.com/in/max-magill-a40686192/">
               <img src={linkedin} className="w-16 h-16" alt="linkedin"></img>
             </a>
