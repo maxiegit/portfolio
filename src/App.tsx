@@ -39,7 +39,7 @@ function App() {
             <a href="https://www.linkedin.com/in/max-magill-a40686192/">
               <img src={linkedin} className="w-16 h-16" alt="linkedin"></img>
             </a>
-            <a href="https://www.linkedin.com/in/max-magill-a40686192/">
+            <a href="https://github.com/maxiegit">
               <img src={github} className="w-16 h-16" alt="github"></img>
             </a>
           </div>
